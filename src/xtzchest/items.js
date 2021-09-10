@@ -67,6 +67,8 @@ export const baseAccessories = [
   "Coin",
   "Cards",
   "Tattoo",
+  "Vape",
+  "Cigar",
 ];
 export const prefix = [
   "Steel",
@@ -75,6 +77,8 @@ export const prefix = [
   "Silver",
   "Iron",
   "Wooden",
+  "Decent",
+  "Chill",
 ];
 
 export const prefixRare = [
@@ -86,6 +90,9 @@ export const prefixRare = [
   "Inferno",
   "Coded",
   "Blooming",
+  "Yugi's",
+  "Kathleen's",
+  "Crit1kal's",
 ];
 
 export const prefixEpic = [
@@ -100,9 +107,11 @@ export const prefixEpic = [
   "Gore",
   "Antique",
   "Boneweave",
+  "Offline",
+  "Demonic",
 ];
 
-export const prefixSuper = ["Cursed", "World", "Lost", "Brietman's"];
+export const prefixSuper = ["Cursed", "World", "Lost", "Brietman's", "Infused"];
 
 export const suffix = [
   "of Honor",
@@ -122,6 +131,7 @@ export const suffix = [
   "of Ender",
   "of Elvenskin",
   "of Savages",
+  "of Marvel",
 ];
 export const suffixRare = [
   "of Evanescence",
@@ -144,5 +154,7 @@ export const suffixRare = [
   "of Lust",
   "of Zeal",
   "of the Dreamweaver",
+  "of Cataclysm",
+  "of the Nerds",
 ];
 export const suffixEpic = ["of Tezos"];
