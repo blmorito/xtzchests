@@ -18,6 +18,8 @@ function XTZChest() {
         break;
       case 3:
         weaponClass = "mage";
+        break;
+      default:
     }
     // alert("HELLO")
     // const newArr = items;

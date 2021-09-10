@@ -46,6 +46,7 @@ export function generateName(item) {
         txt = baseWeapMage[rand(0, baseWeapMage.length - 1)];
       }
       break;
+    default:
   }
   item = addPrefix(item);
   item = addSuffix(item);
@@ -128,6 +129,7 @@ export function addPrefix(item) {
     case 4:
       pref = prefixSuper[rand(0, prefixSuper.length - 1)];
       break;
+    default:
   }
   if (item.rarity !== -1) {
     item.rarity = rarity;
@@ -161,6 +163,7 @@ export function addSuffix(item) {
     case 3:
       suff = suffixEpic[rand(0, suffixEpic.length - 1)];
       break;
+    default:
   }
   item.suffix = suff;
   return item;
