@@ -61,7 +61,6 @@ function XTZChest() {
   };
   return (
     <div>
-      <p>{items.length}</p>
       <div className="chest">
         {items.map((item) => (
           <Item item={item} />
