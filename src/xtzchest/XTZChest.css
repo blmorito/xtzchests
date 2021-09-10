@@ -1,0 +1,9 @@
+.chest {
+    margin: 0 auto;
+    height: 300px;
+    width: 250px;
+    padding: 15px;
+    background-color: #241300;
+    text-align: left;
+    border: 2px solid #FCAF00;
+}
